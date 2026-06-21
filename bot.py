@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 # AYARLAR (Burayı kendi bilgilerine göre güncelle)
-TOKEN = ""
+TOKEN = os.environ.get ("TOKEN")
 ANA_KANAL_ID = 1518042695984087162 
 active_rooms = {} 
 
